@@ -8,9 +8,11 @@ const EstiloGlobal = createGlobalStyle`
     list-style:none;
   }
   body {
-    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     @media (max-width: 768px) {
-      margin-top: 20px;
+      padding-top: 20px;
+
     }
   }
 `
@@ -26,10 +28,6 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     max-width: 80%;
     display: block;
-  }
-
-  img {
-    max-width: 100%;
   }
 `
 
