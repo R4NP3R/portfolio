@@ -2,6 +2,12 @@
 import { SquareArrowOutUpRight } from 'lucide-react'
 import * as S from './styles'
 import github from 'devicon/icons/github/github-original.svg'
+import mensalidade from '../../assets/Mensalidade.png'
+import efood from '../../assets/Efood.png'
+import eplay from '../../assets/Eplay.png'
+import listaDeContatos from '../../assets/ListaDeContatos.png'
+import spiderman from '../../assets/SpiderMan.png'
+import breakingBad from '../../assets/BreakingBad.png'
 
 interface ProjetosMockados {
   name: string,
@@ -15,7 +21,7 @@ export const ProjetosMockados: ProjetosMockados[] = [
   {
     name: 'Mensalidade',
     description: 'Projeto de mensalidade pensando em professores de academia que não tem controle do fluxo de alunos e mensalidade.',
-    githubLink: 'https://github.com/R4NP3R/projeto_mensalidade',
+    githubLink: mensalidade,
     imageRef: 'src/assets/Mensalidade.png'
   },
   {
@@ -23,35 +29,35 @@ export const ProjetosMockados: ProjetosMockados[] = [
     description: 'Projeto da EBAC para colocar em pratica o conhecimento em React, com acompanhamento dos tutores.',
     githubLink: 'https://github.com/R4NP3R/efood',
     siteLink: 'https://efood-phi.vercel.app/',
-    imageRef: 'src/assets/Efood.png'
+    imageRef: efood
   },
   {
     name: 'EPlay',
     description: 'Projeto da EBAC para colocar em pratica o conhecimento em React e consumo de API, com acompanhamento dos tutores.',
     githubLink: 'https://github.com/R4NP3R/eplay',
     siteLink: 'https://eplay-rho-five.vercel.app/',
-    imageRef: 'src/assets/Eplay.png'
+    imageRef: eplay
   },
   {
     name: 'Lista de Contatos',
     description: 'Desafio da EBAC, fazer um lista de contatos com Redux com adição, remoção e edição de contatos, inspirado no contatos da Google',
     githubLink: 'https://github.com/R4NP3R/exercicio_lista_de_contatos_React',
     siteLink: 'https://lista-de-contatos-opal.vercel.app/',
-    imageRef: 'src/assets/ListaDeContatos.png'
+    imageRef: listaDeContatos
   },
   {
     name: 'Spiderman Carrousel',
     description: 'Carrousel do SpiderMan para colocar em prática conhecimentos de estilização e framer motion.',
     githubLink: 'https://github.com/R4NP3R/NextJS-spiderman-carousel',
     siteLink: 'https://spiderman-carousel.vercel.app/',
-    imageRef: 'src/assets/SpiderMan.png'
+    imageRef: spiderman
   },
   {
     name: 'Breaking Bad',
     description: 'Fiz esse projeto quando estava iniciando em desenvolvimento front end, para aprender mais sobre animações e DIV',
     githubLink: 'https://github.com/R4NP3R/Breaking_Bad',
     siteLink: 'https://breaking-bad-azure.vercel.app/',
-    imageRef: 'src/assets/BreakingBad.png'
+    imageRef: breakingBad
   },
 ]
 
