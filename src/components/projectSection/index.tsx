@@ -2,7 +2,7 @@
 import { SquareArrowOutUpRight } from 'lucide-react'
 import * as S from './styles'
 import github from 'devicon/icons/github/github-original.svg'
-import mensalidade from '../../assets/Mensalidade.png'
+import Mensalidade from '../../assets/Mensalidade.png'
 import efood from '../../assets/Efood.png'
 import eplay from '../../assets/Eplay.png'
 import listaDeContatos from '../../assets/ListaDeContatos.png'
@@ -21,7 +21,7 @@ export const ProjetosMockados: ProjetosMockados[] = [
   {
     name: 'Mensalidade',
     description: 'Projeto de mensalidade pensando em professores de academia que não tem controle do fluxo de alunos e mensalidade.',
-    githubLink: mensalidade,
+    githubLink: Mensalidade,
     imageRef: 'src/assets/Mensalidade.png'
   },
   {
