@@ -2,7 +2,7 @@
 import { SquareArrowOutUpRight } from 'lucide-react'
 import * as S from './styles'
 import github from 'devicon/icons/github/github-original.svg'
-import Mensalidade from '../../assets/mensalidade.png'
+import Mensalidade from '../../assets/mensal.png'
 import efood from '../../assets/Efood.png'
 import eplay from '../../assets/Eplay.png'
 import listaDeContatos from '../../assets/ListaDeContatos.png'
