@@ -5,9 +5,11 @@ import github from 'devicon/icons/github/github-original.svg'
 import mensal from '../../assets/mensal.png'
 import efood from '../../assets/Efood.png'
 import eplay from '../../assets/Eplay.png'
+import esports from '../../assets/ESports.png'
 import listaDeContatos from '../../assets/ListaDeContatos.png'
 import spiderman from '../../assets/SpiderMan.png'
 import breakingBad from '../../assets/BreakingBad.png'
+import disney from '../../assets/Disney.png'
 
 interface ProjetosMockados {
   name: string,
@@ -21,8 +23,8 @@ export const ProjetosMockados: ProjetosMockados[] = [
   {
     name: 'Mensalidade',
     description: 'Projeto de mensalidade pensando em professores de academia que não tem controle do fluxo de alunos e mensalidade.',
-    githubLink: mensal,
-    imageRef: 'src/assets/Mensalidade.png'
+    githubLink: 'https://github.com/R4NP3R/projeto_mensalidade',
+    imageRef: mensal
   },
   {
     name: 'Efood',
@@ -39,11 +41,25 @@ export const ProjetosMockados: ProjetosMockados[] = [
     imageRef: eplay
   },
   {
+    name: 'EBAC Sports',
+    description: 'Desafio da EBAC para colocar em pratica o conhecimento em Redux fazendo um carrinho, com acompanhamento dos tutores.',
+    githubLink: 'https://github.com/R4NP3R/ebac_sports',
+    siteLink: 'https://ebac-sports-ashy.vercel.app/',
+    imageRef: esports
+  },
+  {
     name: 'Lista de Contatos',
     description: 'Desafio da EBAC, fazer um lista de contatos com Redux com adição, remoção e edição de contatos, inspirado no contatos da Google',
     githubLink: 'https://github.com/R4NP3R/exercicio_lista_de_contatos_React',
     siteLink: 'https://lista-de-contatos-opal.vercel.app/',
     imageRef: listaDeContatos
+  },
+  {
+    name: 'Clone Disney+',
+    description: 'Projeto da EBAC para colocar em pratica o conhecimento em contrução de site com HTML e CSS',
+    githubLink: 'https://github.com/R4NP3R/clone_disneyplus',
+    siteLink: 'https://clone-disneyplus-theta.vercel.app/',
+    imageRef: disney
   },
   {
     name: 'Spiderman Carrousel',

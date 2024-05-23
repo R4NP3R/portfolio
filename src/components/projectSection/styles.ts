@@ -123,6 +123,7 @@ export const ProjectTitle = styled.h1`
 `
 
 export const ProjectDescription = styled.p`
+  width: 100%;
   position: absolute;
   bottom: 25px;
 
