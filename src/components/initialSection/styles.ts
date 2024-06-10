@@ -46,7 +46,7 @@ export const RoleText = styled(motion.div)`
 
   h1 {
     margin-right: 4px;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   @media (max-width: 480px) {
