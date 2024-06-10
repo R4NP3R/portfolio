@@ -15,7 +15,7 @@ export const AboutMeSectionContainer = styled.section`
   }
 
 
-  @media (max-width: 430px) {   
+  @media (max-width: 480px) {   
     
     h1 {
       padding: 12px;
@@ -25,6 +25,7 @@ export const AboutMeSectionContainer = styled.section`
   @media (max-height: 667px) {
     margin-bottom: 200px; 
   }
+  
 `
 
 export const AboutMeSection = styled.div`
@@ -37,10 +38,11 @@ export const AboutMeSection = styled.div`
   align-items: flex-end;
   padding: 24px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     align-items: center;
     padding: 0px;
   }
+
 `
 
 export const AboutMeSectionImage = styled.img`
@@ -51,9 +53,13 @@ export const AboutMeSectionImage = styled.img`
   border-radius: 100%;
   padding: 24px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     margin: 0;
     width: 260px;
+  }
+
+  @media (min-width: 1921px) {
+    margin-right: 450px;
   }
 `
 
@@ -65,11 +71,15 @@ export const AboutMeSectionDescription = styled.div`
   right: 560px;
   font-size: 22px;  
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     position: static;
     width: 100%;
     font-size: 18px;
     text-align: center;
+  }
+
+  @media (min-width: 1921px) {
+    left: 400px;
   }
 `
 
@@ -93,7 +103,7 @@ export const ContactsListContainer = styled.div`
   width: 100%;
   display: flex;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     top: 60px;
   }
 `
@@ -104,7 +114,7 @@ export const ContactsList = styled.ul`
   align-items: center;
   flex-direction: column;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -115,11 +125,10 @@ export const ContactsListItem = styled.li`
   display: flex;
   align-items: center;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
   }
 `
 
@@ -137,7 +146,7 @@ export const ContactsLinks = styled(motion.a)`
     margin-right: 12px;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     margin-top: 14px;
 
     p {

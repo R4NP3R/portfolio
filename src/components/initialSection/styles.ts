@@ -10,7 +10,7 @@ export const StyledSection = styled.section`
   z-index: 2;
   padding-left: 180px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     padding: 0;
     padding-top: 50px;
     flex-direction: column;
@@ -27,7 +27,7 @@ export const ProfileImage = styled.div`
     width: 400px;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,7 +49,7 @@ export const RoleText = styled(motion.div)`
     font-size: 24px;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     h1 {
       font-size: 20px;
       text-align: center;      
@@ -79,7 +79,7 @@ export const DescriptionText = styled(motion.div)`
     text-align: left;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     margin-left: 0px;
     text-align: left;
     
@@ -106,7 +106,7 @@ export const TechnologiesIcons = styled(motion.div)`
     width: 60px;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     flex-wrap: wrap;
 
     img {

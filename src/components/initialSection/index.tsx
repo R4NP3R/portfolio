@@ -101,7 +101,7 @@ export const InitialSection = () => {
         transition={{duration: 0.6, delay: 1}}
         initial="initial"
         animate="animation"
-        >Meu nome é Rafael tenho 20 anos, estudo programação a mais de um ano, e sempre estou em busca de 
+        >Meu nome é Rafael tenho 20 anos, estudo programação há mais de um ano, sempre estou em busca de 
         conhecimento nas tecnologias que já tenho experiência, as principais tecnologias que uso são: </motion.p>
         <S.TechnologiesIcons
           variants={logoVariant}

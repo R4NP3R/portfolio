@@ -12,7 +12,7 @@ export const NavigationMenu = styled(motion.nav)`
   top: 12px;
   padding: 8px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     display: none;
   }
 `

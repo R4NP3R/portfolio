@@ -10,6 +10,8 @@ import listaDeContatos from '../../assets/ListaDeContatos.png'
 import spiderman from '../../assets/SpiderMan.png'
 import breakingBad from '../../assets/BreakingBad.png'
 import disney from '../../assets/Disney.png'
+import foodNow from '../../assets/foodNow.png'
+import csgoNades from '../../assets/CSGranadas.png'
 
 interface ProjetosMockados {
   name: string,
@@ -41,12 +43,26 @@ export const ProjetosMockados: ProjetosMockados[] = [
     imageRef: eplay
   },
   {
+    name: 'Food Now',
+    description: 'Projeto freelancer feito para um polonês em html, css e javascript',
+    githubLink: 'https://github.com/R4NP3R/freela_restaurant',
+    siteLink: 'https://freela-restaurant.vercel.app/',
+    imageRef: foodNow
+  },
+  {
+    name: 'Granadas CS:GO',
+    description: 'Desafio da EBAC para colocar em pratica o conhecimento em construção de site com bootstrap, com acompanhamento dos tutores.',
+    githubLink: 'https://github.com/R4NP3R/Granadas-CSGO',
+    siteLink: 'https://granadas-csgo.vercel.app/',
+    imageRef: csgoNades
+  },
+  {
     name: 'EBAC Sports',
     description: 'Desafio da EBAC para colocar em pratica o conhecimento em Redux fazendo um carrinho, com acompanhamento dos tutores.',
     githubLink: 'https://github.com/R4NP3R/ebac_sports',
     siteLink: 'https://ebac-sports-ashy.vercel.app/',
     imageRef: esports
-  },
+  },  
   {
     name: 'Lista de Contatos',
     description: 'Desafio da EBAC, fazer um lista de contatos com Redux com adição, remoção e edição de contatos, inspirado no contatos da Google',
@@ -75,11 +91,12 @@ export const ProjetosMockados: ProjetosMockados[] = [
     siteLink: 'https://breaking-bad-azure.vercel.app/',
     imageRef: breakingBad
   },
+  
 ]
 
 export const ProjectsSection = () => {
   return (
-    <S.StyledSection id="Projetos">
+    <S.StyledSection id="Projetos" className='container'>
       <S.SectionTittle>
         <h1>Experiências em Desenvolvimento Web</h1>
       </S.SectionTittle>

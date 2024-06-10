@@ -17,10 +17,13 @@ export const GlobalCSS = createGlobalStyle`
 
   .container {
     margin: 0 auto;
-
-    @media (max-width: 430px) {
+    @media (max-width: 480px) {
       width: 90%
 
+    }
+
+    @media (min-width: 1921px) {
+      width: 1920px
     }
   }
 

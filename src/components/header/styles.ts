@@ -13,7 +13,7 @@ export const Header = styled.header`
   display: flex;
   margin-top: 12px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     position: relative;
     margin-top: 8px;
     top: 5px;
@@ -41,7 +41,7 @@ export const HeaderText = styled(motion.span)<Props>`
   }
 
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     font-size: 30px;
 
     img {

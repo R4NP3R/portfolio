@@ -16,7 +16,7 @@ export const SectionTittle = styled.div`
     font-size: 32px;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     h1 {
       text-align: center;
       font-size: 24;
@@ -26,7 +26,7 @@ export const SectionTittle = styled.div`
 
 export const SectionProjects = styled(motion.div)`
   margin-top: 32px;
-  padding: 24px;
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,7 +50,7 @@ export const ProjectContainer = styled(motion.div)`
     }
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     width: 100%;
     height: 180px;
 
@@ -98,7 +98,7 @@ export const ProjectInformations = styled.div`
     border-radius: 100%;
   }
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     width: 100%;
     height: 100%;
     
@@ -117,7 +117,7 @@ export const ProjectTitle = styled.h1`
   position: absolute;
   bottom: 60px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     bottom: 10px
   }
 `
@@ -127,7 +127,7 @@ export const ProjectDescription = styled.p`
   position: absolute;
   bottom: 25px;
 
-  @media (max-width: 430px) {
+  @media (max-width: 480px) {
     display: none;
   }
 `
