@@ -4,13 +4,14 @@ import { motion } from 'framer-motion'
 import github from 'devicon/icons/github/github-original.svg'
 import linkedin from 'devicon/icons/linkedin/linkedin-original.svg'
 import google from 'devicon/icons/google/google-original.svg'
+import fotoPerfil from '../../assets/foto_perfil.jpeg'
 
 export const AboutMeSection = () => {
   return (
     <S.AboutMeSectionContainer id='SobreMim'>
       <h1>Sobre Mim</h1>
       <S.AboutMeSection>
-      <S.AboutMeSectionImage src='https://media.licdn.com/dms/image/D4D03AQGnNZhqiPqXDA/profile-displayphoto-shrink_200_200/0/1695396507672?e=1721865600&v=beta&t=CfaDR-KDkYiy_hUX_BHdv9SL4n0ziWZapQJyfLXz1_E' alt="" />
+      <S.AboutMeSectionImage src={fotoPerfil} alt="" />
       <S.AboutMeSectionDescription>
         <p>Iniciei os estudos em programação, porquê desde os meus 10 anos gosto de mexer em computador, 
         há dois anos vi que para me especializar na área teria que fazer um curso ou faculdade, e estava desempregado e fui atrás de uma oportunidade
