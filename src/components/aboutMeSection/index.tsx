@@ -33,7 +33,7 @@ export const AboutMeSection = () => {
                 animation: { rotate: 2, scale: 1.2 }
               }}
               whileHover="animation"
-              target='_blank' href="https://github.com/">
+              target='_blank' href="https://github.com/R4NP3R">
                 <img src={github} alt="" />
                 <p>/R4NP3R</p>
               </S.ContactsLinks>
