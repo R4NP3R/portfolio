@@ -46,7 +46,6 @@ export const AboutMeSection = styled.div`
 `
 
 export const AboutMeSectionImage = styled.img`
-  margin-right: 250px;
   width: 340px;
   margin-top: 20px;
   display: flex;
@@ -64,11 +63,11 @@ export const AboutMeSectionImage = styled.img`
 `
 
 export const AboutMeSectionDescription = styled.div`
-  width: 1000px;
+  width: 800px;
   position: absolute;
   z-index: 2;
-  top: 80px;
-  right: 560px;
+  top: 120px;
+  right: 400px;
   font-size: 22px;  
 
   @media (max-width: 480px) {
